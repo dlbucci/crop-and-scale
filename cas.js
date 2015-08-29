@@ -213,7 +213,8 @@ window.onload = function () {
           elt("h3", null, "Made by ",
               H.Link("Daniel Bucci", "mailto:dlbucci@superftc.com"), " for his ",
               H.Link("Super FTC", "http://www.superftc.com/comic"), " ",
-              H.Link("Tapastic Comic", "http://www.tapastic.com/series/Super-FTC"), ".")));
+              H.Link("Tapastic Comic", "http://www.tapastic.com/series/Super-FTC"), ".", elt("br"),
+              H.Link("Fork me on GortHorb.", "https://github.com/dlbucci/crop-and-scale"))));
   
   window.onresize = redrorw;
 };
